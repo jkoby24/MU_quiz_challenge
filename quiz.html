@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manchester United Quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css"> 
+    <link rel="stylesheet" href="assets/quiz.css"> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script defer src="assets/script.js"></script>
+</head>
+</head>
+<body>
+    <div class="container">
+        <div id="quiz" class="justify-center flex-column">
+            <div id="scoreboard">
+                <div id="score-container">
+                <p class="time-text">
+                    Time remaning
+                </p>
+                <h1 class="time-left-text" id="timeLeft">
+                    1:00
+                </h1>
+            </div>
+            <div id="score-container">
+                <p class="time-text">
+                   <a href="scores.html"><button type="button" class="btn btn-outline-danger">View highscores</button></a>
+                </p>
+                <h1 class="score-text" id="highscore">
+                    0
+                </h1>
+            </div>
+            </div>
+           <h2 id="question">Question goes here</h2>
+            <div class="choice-container">
+                <p class="choice-prefix">A</p>
+                <p class="choice-text" data-number="1">choice 1</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">B</p>
+                <p class="choice-text" data-number="2">choice 2</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">C</p>
+                <p class="choice-text " data-number="3">choice 3</p>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix">D</p>
+                <p class="choice-text" data-number="4">choice 4</p>
+            </div>
+            <button id="next-btn" type="button" class="btn btn-outline-danger" style="font-size: xx-large;">Next</button>
+        </div>
+        
+    </div>
+</body>
+</html>
